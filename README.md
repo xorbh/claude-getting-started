@@ -16,29 +16,61 @@ To upgrade:
 2. Navigate to your subscription/billing section
 3. Select the **Max plan** and complete the upgrade
 
-## Step 3: Set Up Gmail and Calendar Connectors in Claude Works
+## Step 3: Navigate to the Cowork Tab
 
-Claude Works allows you to connect external services like Gmail and Google Calendar so Claude can read your emails, check your schedule, and help you manage your day.
+Once you're in the Claude desktop app, you'll see three tabs at the top: **Chat**, **Cowork**, and **Code**. Click on the **Cowork** tab — this is where Claude Works lives.
 
-### Connect Gmail
+![Cowork tab in Claude desktop app](images/01-cowork-tab.png)
 
-1. Open [claude.ai](https://claude.ai)
-2. Navigate to **Claude Works** settings
-3. Find the **Gmail** connector and click **Connect**
-4. Sign in with your Google account and grant the required permissions
-5. Once connected, Claude can search your emails, read messages, and draft replies
+> **Important:** Make sure you are working in the **Cowork** tab (the middle tab) for all Claude Works features. This is where your connected tools and connectors are available.
 
-### Connect Google Calendar
+## Step 4: Set Up Gmail and Calendar Connectors
 
-1. In the same **Claude Works** settings area, find the **Google Calendar** connector
-2. Click **Connect** and sign in with your Google account
-3. Grant the required calendar permissions
-4. Once connected, Claude can view your events, find free time, and create calendar entries
+### Open the Sidebar
 
-## Step 4: Use the Middle Panel for Claude Works
+Click the sidebar icon (top-left) or press `Cmd + .` to open the sidebar.
 
-**Important:** When working with Claude Works features (Gmail, Calendar, and other connectors), make sure you are working in the **middle panel/tab** of the Claude interface. This is the Claude Works workspace where your connected tools are available. The side panels serve different purposes — the middle panel is where Claude Works lives and where your connectors will be active.
+![Open sidebar](images/02-open-sidebar.png)
+
+### Go to Customize
+
+In the sidebar, click on **Customize** to access connector settings.
+
+![Sidebar with Customize option](images/03-sidebar-customize.png)
+
+### Open Connectors
+
+Click on **Connectors** in the left menu. You'll see your currently connected services listed under "Web".
+
+![Connectors list](images/04-connectors-list.png)
+
+### Add New Connectors
+
+Click the **+** button at the top of the Connectors panel. You'll see options to **Browse connectors** or **Add custom connector**.
+
+![Add connector menu](images/05-add-connector.png)
+
+### Browse and Enable Gmail & Google Calendar
+
+Select **Browse connectors** to see all available connectors. Find **Gmail** and **Google Calendar** and enable them. A checkmark indicates they are connected.
+
+- **Gmail** — Draft replies, summarize threads, & search your inbox
+- **Google Calendar** — Manage your schedule and coordinate meetings effortlessly
+
+![Browse connectors showing Gmail and Google Calendar](images/06-browse-connectors.png)
+
+### Configure Gmail Permissions
+
+Once Gmail is connected, you can configure its permissions. You'll see read-only tools (Get Gmail Profile, List Gmail Drafts, Read Gmail Email, Read Gmail Thread, Search Gmail Emails) and write tools (Create Gmail Draft).
+
+![Gmail connector permissions](images/07-gmail-permissions.png)
+
+### Configure Google Calendar Permissions
+
+Similarly, configure Google Calendar permissions. Read-only tools include Find Meeting Times, Find Free Time, Get Event Details, List Calendars, and List Calendar Events. Write tools include Create, Delete, Respond to, and Update Calendar Events.
+
+![Google Calendar connector permissions](images/08-calendar-permissions.png)
 
 ---
 
-You're all set! With the Claude desktop app installed, the Max plan active, and your Gmail and Calendar connectors configured, you can start using Claude to manage your emails, schedule, and more — all in one place.
+You're all set! With the Claude desktop app installed, the Max plan active, and your Gmail and Calendar connectors configured, you can start using Claude to manage your emails, schedule, and more — all in one place from the **Cowork** tab.
